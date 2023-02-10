@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input:checked + span {
+  text-decoration:line-through
+}
+
+span:last-child {
+  color: red;
+  cursor: pointer;
+}
